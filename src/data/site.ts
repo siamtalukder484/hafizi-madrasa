@@ -25,6 +25,7 @@ export const navLinks = [
   { href: "/lillah-boarding", label: "লিল্লাহ বোর্ডিং" },
   { href: "/admission", label: "ভর্তি" },
   { href: "/notices", label: "নোটিশ ও মাহফিল" },
+  { href: "/gallery", label: "গ্যালারি" },
   { href: "/contact", label: "যোগাযোগ" },
 ] as const;
 

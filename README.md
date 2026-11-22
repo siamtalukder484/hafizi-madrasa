@@ -22,6 +22,7 @@ npm run dev
 | লিল্লাহ বোর্ডিং | `/lillah-boarding` |
 | ভর্তি | `/admission` |
 | নোটিশ ও মাহফিল | `/notices` |
+| গ্যালারি | `/gallery` (`/gallery?category=mahfil` দিলে ক্যাটাগরি সিলেক্ট থাকে) |
 | যোগাযোগ | `/contact` |
 | দান করুন | `/donate` (`/donate?fund=lillah` দিলে খাত আগে থেকে সিলেক্ট থাকে) |
 
@@ -29,6 +30,7 @@ npm run dev
 
 - **সব লেখা/তথ্য:** `src/data/site.ts` — নাম, ঠিকানা, ফোন, শিক্ষক, নোটিশ, মাহফিল, দানের খাত।
   শিক্ষকদের মধ্যে ৩ জনের নাম নমুনা (`placeholder: true`) — আসল নাম বসিয়ে দিন।
+- **গ্যালারি:** ছবি `public/gallery/` এ রাখুন এবং `src/data/gallery.ts` এ তালিকায় যোগ করুন। এখনকার `.svg` ছবিগুলো নমুনা।
 - **লোগো:** `public/logo.svg` (ফেভিকন: `src/app/icon.svg`)
 - **রং:** `src/app/globals.css` এর `@theme` অংশে `brand` ও `gold` রং।
 - সাইটে হলুদ ব্যাজে দেখানো তথ্যগুলো নমুনা — সেগুলো পরিবর্তন করুন।
